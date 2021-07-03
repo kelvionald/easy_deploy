@@ -1,4 +1,4 @@
-#Easy Deploy
+# Easy Deploy
 
 Deploying applications has always been a headache for me. I hope this repository will help you. Minimal knowledge of Git, Linux is encouraged.
 
