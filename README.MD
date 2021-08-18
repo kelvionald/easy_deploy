@@ -5,8 +5,8 @@ Deploying applications has always been a headache for me. I hope this repository
 1. On the server, create a repository in the project folder:
 > git init
 
-2. On the server, switch the branch to main:
-> git checkout main
+2. On the server, switch the branch to **branch** (main/prod):
+> git checkout **branch**
 
 3. On the server, Ignore the option:
 > git config receive.denyCurrentBranch ignore
@@ -15,4 +15,4 @@ Deploying applications has always been a headache for me. I hope this repository
 > git remote add live ssh://**user**@**host**/**path_to_project**/.git
 
 5. In the local repository, push the commit to the server:
-> git push live main
+> git push live **branch**
